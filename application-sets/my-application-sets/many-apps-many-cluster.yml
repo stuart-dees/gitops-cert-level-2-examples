@@ -13,8 +13,7 @@ spec:
               revision: HEAD
               directories:
                 - path: application-sets/example-apps/*
-          # cluster generator, 'child' #2
-          - clusters {}
+          - clusters: {}
   template:
     metadata:
       name: '{{path.basename}}-{{name}}'
